@@ -1,0 +1,583 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="mpBqMf-x_r6X-dBTvgTDxZM1hJHIpRajfl4xNqK57i0" />
+    <meta name="description" content="Weterynarz">
+    <title>Weterynarz</title>
+    <link href='./css/styles.pure.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!--icon-->
+    <link rel="icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!--navbar from bootstrap-->
+    <nav class="top-nav" id="start">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                    <p>
+                        <i class='bx bxs-phone-call'></i>
+                        <span>+48 12-123-123</span>
+                    </p>
+                    <p>
+                        <i class='bx bxs-envelope'></i>
+                        <span>ogryzek@gmail.com</span>
+                    </p>
+                </div>
+                <div class="col-auto">
+                    <div class="social-link">
+                        <a href="#start"><i class='bx bxl-twitter'></i></a>
+                        <a href="#start"><i class='bx bxl-facebook-circle'></i></a>
+                        <a href="#start"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ogryzek<span>.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#start">Start</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">O nas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#offer">Nasza oferta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#doctors">Nasi lekarze</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#grooming">Grooming</a>
+                    </li>
+                </ul>
+                <a href="#exampleModal" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    class="btn btn-brand ms-lg-3">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+    <!--Slider-->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slide slide1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-10 offset-lg-1 text-white">
+                                <h6 class="text-white text-uppercase">klinika weterynaryjna</h6>
+                                <h1 class="display-3 my-4">Ogryzek<br /></h1>
+                                <div class="slider-btn">
+                                    <a href="#offer" class="btn btn-brand">Nasza oferta</a>
+                                    <a href="#doctors" class="btn btn-outline-light ms-3">Lekarze</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide slide2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-lg-10 offset-lg-1 text-white">
+                                <h6 class="text-white text-uppercase">Diagnostyka i leczenie chorób małych ssaków i
+                                    gryzoni</h6>
+                                <h1 class="display-3 my-4">Ogryzek<br /></h1>
+                                <div class="slider-btn">
+                                    <a href="#offer" class="btn btn-brand">Nasza oferta</a>
+                                    <a href="#doctors" class="btn btn-outline-light ms-3">Lekarze</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--About-->
+    <section id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-5 py-5">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="info-box">
+                                <i class='bx bxs-phone-call bx-tada icon1' style='color:#0095eb'></i>
+                                <div class="ms-4">
+                                    <h5>Przed planowaną wizytą.</h5>
+                                    <p>Prosimy o osobiste lub telefoniczne zarejestrowanie się.
+                                        Pozwoli to nam usprawnić organizację pracy, zaplanować zabiegi, a Państwu skróci
+                                        czas oczekiwania. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <div class="info-box">
+                                <i class='bx bx-injection icon1' style='color:#0095eb'></i>
+                                <div class="ms-4">
+                                    <h5>Przypadki wymagające natychmiastowej pomocy.</h5>
+                                    <p>Przyjmujemy poza kolejnością, prosimy jednak poinformować nas o przybyciu, jeżeli
+                                        jest taka możliwość. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mt-4">
+                            <div class="info-box">
+                                <i class='bx bx-plus-medical bx-flashing icon1' style='color:#0095eb'></i>
+                                <div class="ms-4">
+                                    <h5>Dni wolne od pracy i święta.</h5>
+                                    <p>Pełnimy OSTRY DYŻUR. Pomocy w nagłych przypadkach udzielamy całodobowo! </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <img src="img/vetbaner1.webp" style="width: 100%;" alt="baner1">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Offer-->
+
+    <section id="offer" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro text-center">
+                    <h6>NASZA OFERTA</h6>
+                    <h1>Czym się zajmujemy?</h1>
+                    <p>Zapraszamy do zapoznania się z prowadzonym w naszej przychodni leczeniem i rekonwalescencją
+                        zwierząt.</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <i class='bx bxs-vial icon1' style='color:#0095eb'></i>
+                        <h5>Diagnostyka</h5>
+                        <p>Podstawą skutecznego leczenia jest właściwie postawiona diagnoza.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <i class='bx bxs-bone icon1' style='color:#0095eb'></i>
+                        <h5>Chirurgia</h5>
+                        <p>Chirurgia narządów wewnętrznych, skórna, ortopedia, okulistyka.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <i class='bx bxs-bug icon1' style='color:#0095eb'></i>
+                        <h5>Odrobaczanie</h5>
+                        <p>Zapobieganie inwazjom pasożytniczym u zwierząt domowych.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <i class='bx bxs-injection icon1' style='color:#0095eb'></i>
+                        <h5>Szczepienie</h5>
+                        <p>Szybkie testy, szczepienia zwierząt, zapobieganie chorobom.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <i class='bx bxs-clinic icon1' style='color:#0095eb'></i>
+                        <h5>Szpital dla zwierząt</h5>
+                        <p>Zwierzaki znajdują się pod troskliwą, profesjonalną opieką 24/7.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service">
+                        <i class='bx bx-cut icon1' style='color:#0095eb'></i>
+                        <h5>Grooming</h5>
+                        <p>To elegancki i profesjonalny salon pielęgnacji.<br> Zapraszamy. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery-->
+
+
+    <section id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h6>Galeria</h6>
+                        <h1>Jakie zwierzęta leczymy?</h1>
+                        <p class="mx-auto">Diagnostyka i leczenie chorób małych ssaków i gryzoni.</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-8">
+                    <div id="carouselExampleIndicators" class="carousel slide slide8" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                                aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                                aria-label="Slide 5"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/vett5.webp" style="width:100%; height: 100%;" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/vett2.webp" style="width:100%; height: 100%;" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/vett1.webp" style="width:100%; height: 100%;" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/vet777.webp" style="width:100%; height: 100%;" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/vet555.webp" style="width:100%; height: 100%;" alt="">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Doctors-->
+
+    <section id="doctors" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h6>Nasi lekarze</h6>
+                        <h1>Wykwalifikowany zespół specjalistów</h1>
+                        <p class="mx-auto">Nieprzerwanie od 2000 roku niesiemy pomoc potrzebującym zwierzętom.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="image">
+                            <img src="img/doktorlew.webp" style="width: 100%; height: auto;" alt="">
+                            <div class="social-icons">
+                                <a href="#doctors"><i class='bx bxl-twitter'></i></a>
+                                <a href="#doctors"><i class='bx bxl-facebook'></i></a>
+                                <a href="#doctors"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <h5>Marcin Kowalski</h5>
+                        <p>Dr n. wet. - Chirurg</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="image">
+                            <img src="img/doktorszef.webp" style="width: 100%; height: auto;" alt="">
+                            <div class="social-icons">
+                                <a href="#doctors"><i class='bx bxl-twitter'></i></a>
+                                <a href="#doctors"><i class='bx bxl-facebook'></i></a>
+                                <a href="#doctors"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <h5>Małgorzata Ogryzek</h5>
+                        <p>Lek. wet. - Dyrektor</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <div class="image">
+                            <img src="img/doktorpra.webp" style="width: 100%; height: auto;" alt="">
+                            <div class="social-icons">
+                                <a href="#doctors"><i class='bx bxl-twitter'></i></a>
+                                <a href="#doctors"><i class='bx bxl-facebook'></i></a>
+                                <a href="#doctors"><i class='bx bxl-instagram'></i></a>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <h5>Daniel Piasek</h5>
+                        <p>Lek. wet. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="reviews">
+        <div class="owl-theme owl-carousel reviews-slider container">
+            <div class="review">
+                <div id="carouselExampleControls" class="carousel slide3" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/doktorlew.webp" class="d-block w-100" alt="...">
+                            <h5>Marcin Kowalski</h5>
+                            <small>Dr n. wet. - Chirurg</small>
+                            <h3>Znakomity chirurg, ortopeda i specjalista od diagnostyki obrazowej.
+                                Chirurgiczną precyzję stawia na równi z czułością wobec pacjentów. Wprost stworzony do
+                                pracy na sali operacyjnej, dokładny i delikatny. </h3>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/doktorszef.webp" class="d-block w-100" alt="...">
+                            <h5>Małgorzata Ogryzek</h5>
+                            <small>Lek. wet. - Dyrektor</small>
+                            <h3>Założyciel kliniki weterynaryjnej OGRYZEK, wybitny specjalista i pionier stomatologii
+                                weterynaryjnej.
+                                Bezgranicznie oddana pacjentom i zorientowana we wszystkich nowinkach weterynaryjnych.
+                            </h3>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/doktorpra.webp" class="d-block w-100" alt="...">
+                            <h5>Daniel Piasek</h5>
+                            <small>Lek. wet.</small>
+                            <h3>Niezwykle ambitny i zaangażowany okulista oraz internista.
+                                Ciągle doskonali swoją wiedzę poprzez udział w licznych międzynarodowych kursach i
+                                szkoleniach.
+                            </h3>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                            <i class='bx bxs-quote-alt-left'></i>
+                        </div>
+                    </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Grooming-->
+
+    <section id="grooming">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="intro">
+                        <h6>Grooming</h6>
+                        <h1>Psi fryzjer</h1>
+                        <p class="mx-auto">Salon profesjonalnej pielęgnacji zwierząt.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <article class="blog-groomer">
+                        <img class="groomer1" src="img/groomer1.webp" style="width: 100%; height: auto;" alt="">
+                        <a class="tag" href="#grooming">Strzyżenie</a>
+                        <div class="content">
+                            <h5>Rozczesywanie, trymowanie.</h5>
+                            <p>Strzyżenie to niezwykle ważny element pielęgnacji czworonoga, szczególnie jeśli Twój pies
+                                ma włos zamiast sierści. Popularne rasy, który należy regularnie ścinać i czesać to:
+                                yorkshire terriery, shih tzu, maltańczyki itp.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-groomer">
+                        <img class="groomer2" src="img/groomer3.webp" style="width: 100%; height: auto;" alt="">
+                        <a class="tag" href="#grooming">Kąpiel</a>
+                        <div class="content">
+                            <h5>Oczyszczająca, pielęgnacyjna.</h5>
+                            <p>Kąpiel psa nie tylko nie niszczy jego szaty, lecz wręcz przeciwnie – pomaga ją
+                                pielęgnować. Kosmetyki przeznaczone dla psów są dla nich w pełni bezpieczne, posiadają
+                                odpowiednie pH oraz składniki.</p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="blog-groomer">
+                        <img class="groomer3" src="img/groomer2.webp" style="width: 100%; height: auto;" alt="">
+                        <a class="tag" href="#grooming">Czyszczenie zębów</a>
+                        <div class="content">
+                            <h5>Profilaktyka/higiena jamy ustnej.</h5>
+                            <p>Używamy szczoteczki ultradźwiękowej. Czyszczenie polega na naświetlaniu zębów
+                                ultradźwiękami przy użyciu specjalnej pasty, ultradźwięki zabijają bakterie i
+                                zapobiegają odkładaniu się kamienia nazębnego.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+    <footer id="footer">
+        <div class="footer-top text-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 text-center">
+                        <h4 class="navbar-brand">Ogryzek<span class="dot">.</span></h4>
+                        <p></p>
+                        <div class="social-link2">
+                            <a href="#footer"><i class='bx bxl-twitter'></i></a>
+                            <a href="#footer"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="#footer"><i class='bx bxl-instagram'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p class="mb-0">© 2022 Ogryzek | Wszelkie prawa zastrzeżone</p>
+        </div>
+    </footer>
+
+    <!-- Contact -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row gy-4">
+                            <div class="col-lg-4 col-sm-12 bg-cover" id="contact1">
+                            </div>
+                            <div class="col-lg-8">
+                                <form class="p-lg-5 col-12 row g-3">
+                                    <div>
+                                        <h1>Kontakt</h1>
+                                        <p>Zachęcamy do kontaktu z nami, a my skontaktujemy się z Tobą tak szybko, jak
+                                            to możliwe.</p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="userName" class="form-label">Imię</label>
+                                        <input type="text" class="form-control" placeholder="Jan" id="userName"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="userName" class="form-label">Nazwisko</label>
+                                        <input type="text" class="form-control" placeholder="Kowalski" id="userName1"
+                                            aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label">Email</label>
+                                        <input type="email" class="form-control" placeholder="jankowalski@gmail.com"
+                                            id="userName2" aria-describedby="emailHelp">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label">Wpisz wiadomość</label>
+                                        <textarea name="" placeholder="Tutaj wpisz swoją wiadomość."
+                                            class="form-control" id="" rows="4"></textarea>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-brand">Wyślij wiadomość</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FDKHPFP16N"></script>
+    <script async src="https://skrypt-cookies.pl/id/399cd657403e2d53.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-FDKHPFP16N');
+
+
+    </script>
+</body>
+
+</html>
