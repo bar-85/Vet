@@ -1,5 +1,5 @@
 
-# VET/ WETERYNARZ
+ <h1 align="center"> VET/ WETERYNARZ </h1>
 
 Responsywna strona internetowa kliniki weterynaryjnej.
 
